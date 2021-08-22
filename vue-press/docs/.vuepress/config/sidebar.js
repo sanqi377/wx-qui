@@ -23,6 +23,11 @@ module.exports = [
         title: 'Notify 消息通知',
         path: '/components/Feedback/Notify',
         collapsable: false,
+      },
+      {
+        title: 'Dialog 弹出框',
+        path: '/components/Feedback/Dialog',
+        collapsable: false,
       }
     ]
   },

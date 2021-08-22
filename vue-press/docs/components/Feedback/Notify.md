@@ -1,5 +1,5 @@
 ---
-title: "反馈组件"
+title: "消息提示"
 ---
 
 # Notify 消息提示
@@ -14,7 +14,7 @@ title: "反馈组件"
 
 ```json
 "usingComponents": {
-  "notify": "@sanqi377/qui/notify/"
+  "s-notify": "@sanqi377/qui/s-notify/"
 }
 ```
 
@@ -34,7 +34,7 @@ title: "反馈组件"
 ```
 
 ```js
-const { $Notify } = require('@sanqi377/qui/base')
+const { $Notify } = require('@sanqi377/qui/s-notify/notify')
 
 Page({
     handleDefault () {
@@ -46,7 +46,7 @@ Page({
 })
 ```
 
-### API
+### Options
 
 | 属性     | 说明                                                                    | 类型   | 默认值  |
 | -------- | ----------------------------------------------------------------------- | ------ | ------- |

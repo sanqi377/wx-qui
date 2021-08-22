@@ -1,4 +1,4 @@
-const getCtx = (selector: any) => {
+const getCtx = (selector: string) => {
   const pages = getCurrentPages();
   const ctx = pages[pages.length - 1];
 

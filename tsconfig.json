@@ -12,6 +12,6 @@
     "src/**/*"
   ],
   "hooks": [
-    "src/s-notify/index"
+    "src/**/*"
   ]
 }
