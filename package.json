@@ -1,0 +1,24 @@
+{
+  "name": "@sanqi377/qui",
+  "version": "1.0.4",
+  "description": "微信小程序组件库",
+  "main": "index.js",
+  "miniprogram": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanqi377/wechat-components.git"
+  },
+  "author": "sanqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanqi377/wechat-components/issues"
+  },
+  "homepage": "https://sanqi377.github.io/wechat-components/",
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "typescript": "^4.3.5"
+  }
+}
