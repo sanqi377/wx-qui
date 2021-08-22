@@ -62,6 +62,7 @@ typings/
 .DS_Store
 lib
 es
+dist
 _site
 yarn.lock
 package-lock.json
