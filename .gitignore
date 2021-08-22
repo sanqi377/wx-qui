@@ -1,5 +1,5 @@
 # package
 node_modules/
 
-# ts
-*.ts
+# js
+/dist/
