@@ -9,9 +9,12 @@
     "forceConsistentCasingInFileNames": true,
   },
   "include": [
-    "src/**/*"
+    "src/**/*.wxml",
+    "src/**/*.wxss",
+    "src/**/*.json",
+    "src/**/*.ts",
   ],
   "hooks": [
-    "src/**/*"
+    "copy-files"
   ]
 }

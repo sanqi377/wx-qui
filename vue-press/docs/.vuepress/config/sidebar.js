@@ -31,4 +31,15 @@ module.exports = [
       }
     ]
   },
+  {
+    title: '导航组件',
+    collapsable: false,
+    children: [
+      {
+        title: 'Tabs 标签页',
+        path: '/components/Nav/Tabs',
+        collapsable: false,
+      }
+    ]
+  },
 ]

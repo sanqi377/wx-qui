@@ -1,0 +1,3 @@
+<view class="tab {{globalData.test}}" style="display: {{title === titles[active] ? 'block' : 'none'}}">
+  <slot />
+</view>
