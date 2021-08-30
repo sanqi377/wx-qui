@@ -6,15 +6,9 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "src/**/*.wxml",
-    "src/**/*.wxss",
-    "src/**/*.json",
-    "src/**/*.ts",
-  ],
-  "hooks": [
-    "copy-files"
+    "src/**/*"
   ]
 }

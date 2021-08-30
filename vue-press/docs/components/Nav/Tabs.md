@@ -30,3 +30,10 @@ title: 标签页
   <s-tab title="标签 3">内容 3</s-tab>
 </s-tabs>
 ```
+
+### Options
+
+| 属性      | 说明                    | 类型   | 默认值 |
+| --------- | ----------------------- | ------ | ------ |
+| active    | 默认选中索引            | number | 0      |
+| direction | 标签页位置（top、left） | String | top    |

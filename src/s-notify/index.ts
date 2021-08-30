@@ -4,6 +4,7 @@ const default_data = {
   content: '',
   duration: 2,
   type: 'default', // default || success || warning || error
+  bottom: wx.getSystemInfoSync().screenHeight - (wx.getMenuButtonBoundingClientRect().top + wx.getMenuButtonBoundingClientRect().height + 40)
 };
 
 let timmer: any = 0;
